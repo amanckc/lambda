@@ -17,8 +17,8 @@ public class Lam2 {
     }
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		//Biconsumer
-		  BiConsumer<String, String> bi = (a, b) -> System.out.println(a + b);
+		//BiConsumer
+		   BiConsumer<String, String> bi = (a, b) -> System.out.println(a + b);
 	        bi.accept("aman ", "singh");
 	        
 	       // BiFunction
@@ -27,7 +27,7 @@ public class Lam2 {
 	    	   return s;
 	       };
 	       System.out.println(bf.apply("aman ","singh"));
-	        BiFunction <Integer,Integer,Integer> bf1=(a,b)->(a * b);
+	       BiFunction <Integer,Integer,Integer> bf1=(a,b)->(a * b);
 	       System.out.println( bf1.apply(5,7));
 	       
 	       //function interface 
@@ -38,8 +38,8 @@ public class Lam2 {
 	    	   for(i=1;i<=a;i++)
 	    	   {
 	    		  fact*=i ;
-	    	   }
-	    	   
+	    	   }  
+	    	  
 	    	   
 			return fact;
 	       };
